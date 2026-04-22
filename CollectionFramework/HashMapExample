@@ -1,0 +1,14 @@
+import java.util.HashMap;
+public class HashMapExample {
+	public static void main(String[] args) {
+		HashMap<Integer, String> studData=new HashMap<Integer, String>();
+		System.out.println(studData);
+		studData.put(100, "Abcd"); 
+		studData.put(200, "XYZ");
+		studData.put(300, "LMNO");
+		studData.put(400, "Pqrs");
+		studData.put(500, "aaaa");
+		System.out.println(studData);  
+		System.out.println(studData.get(200));
+	}
+} 
